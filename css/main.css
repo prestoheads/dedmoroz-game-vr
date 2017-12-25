@@ -1,0 +1,169 @@
+/* line 8, ../scss/main.scss */
+.status-bar {
+  background-image: url('../img/bg.png?1511970201');
+  height: 6em;
+  position: fixed;
+  bottom: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  left: 2.1875em;
+  right: 2.1875em;
+  max-width: 500px;
+  margin: 0 auto;
+}
+/* line 20, ../scss/main.scss */
+.status-bar:before {
+  content: '';
+  position: absolute;
+  display: block;
+  background-image: url('../img/bgLeft.png?1511969235');
+  width: 2.1875em;
+  height: 6em;
+  left: -2.1875em;
+}
+/* line 30, ../scss/main.scss */
+.status-bar:after {
+  content: '';
+  position: absolute;
+  display: block;
+  background-image: url('../img/bgRight.png?1511969216');
+  width: 2.1875em;
+  height: 6em;
+  right: -2.1875em;
+}
+@media (max-width: 970px) {
+  /* line 8, ../scss/main.scss */
+  .status-bar {
+    font-size: 15px;
+  }
+}
+@media (max-width: 910px) {
+  /* line 8, ../scss/main.scss */
+  .status-bar {
+    font-size: 14px;
+    max-width: 100%;
+    left: 0;
+    right: 0;
+  }
+  /* line 46, ../scss/main.scss */
+  .status-bar:before, .status-bar:after {
+    display: none !important;
+  }
+}
+@media (max-width: 850px) {
+  /* line 8, ../scss/main.scss */
+  .status-bar {
+    font-size: 13px;
+  }
+}
+@media (max-width: 790px) {
+  /* line 8, ../scss/main.scss */
+  .status-bar {
+    font-size: 12px;
+  }
+}
+@media (max-width: 740px) {
+  /* line 8, ../scss/main.scss */
+  .status-bar {
+    font-size: 10px;
+  }
+}
+@media (max-width: 620px) {
+  /* line 8, ../scss/main.scss */
+  .status-bar {
+    font-size: 8px;
+  }
+}
+/* line 55, ../scss/main.scss */
+.status-bar button {
+  background-color: transparent;
+  border: none;
+}
+/* line 60, ../scss/main.scss */
+.status-bar .inner {
+  margin: 0 auto;
+  padding: 0 1.875em;
+  box-sizing: border-box;
+}
+/* line 65, ../scss/main.scss */
+.status-bar .inner .left {
+  width: 50%;
+  float: left;
+  text-align: left;
+  padding-top: 1.875em;
+}
+/* line 72, ../scss/main.scss */
+.status-bar .inner .left #trains span {
+  display: inline-block;
+  background-image: url('../img/train.png?1511715276');
+  width: 4.1875em;
+  height: 3.125em;
+  background-size: 8.375em 3.125em;
+}
+/* line 81, ../scss/main.scss */
+.status-bar .inner .left #trains.t-1 span:nth-child(1) {
+  background-position: right;
+}
+/* line 85, ../scss/main.scss */
+.status-bar .inner .left #trains.t-2 span:nth-child(1) {
+  background-position: right;
+}
+/* line 86, ../scss/main.scss */
+.status-bar .inner .left #trains.t-2 span:nth-child(2) {
+  background-position: right;
+}
+/* line 89, ../scss/main.scss */
+.status-bar .inner .left #trains.t-3 span:nth-child(1) {
+  background-position: right;
+}
+/* line 90, ../scss/main.scss */
+.status-bar .inner .left #trains.t-3 span:nth-child(2) {
+  background-position: right;
+}
+/* line 91, ../scss/main.scss */
+.status-bar .inner .left #trains.t-3 span:nth-child(3) {
+  background-position: right;
+}
+/* line 96, ../scss/main.scss */
+.status-bar .inner .center {
+  width: 33.3%;
+  float: left;
+  text-align: center;
+  padding-top: 1.0625em;
+
+  display: none;
+}
+/* line 102, ../scss/main.scss */
+.status-bar .inner .center #save {
+  background: #5ab8ea;
+  color: #fff;
+  width: 100%;
+  height: 3.75em;
+  border: 0.125em solid #fff;
+  border-radius: 0.625em;
+  font-size: 1.1875em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/* line 115, ../scss/main.scss */
+.status-bar .inner .right {
+  width: 50%;
+  float: left;
+  text-align: right;
+  padding-top: 0.9375em;
+}
+/* line 121, ../scss/main.scss */
+.status-bar .inner .right img {
+  vertical-align: middle;
+  width: 3.5625em;
+  height: 4.1875em;
+}
+/* line 127, ../scss/main.scss */
+.status-bar .inner .right #points {
+  font-weight: bold;
+  color: #fff;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  font-size: 4.125em;
+}
