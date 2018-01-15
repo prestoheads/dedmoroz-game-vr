@@ -1,0 +1,30 @@
+[info]
+author = 
+icon = .b4w_icon.png
+name = ded_moroz_06
+title = TKDM-Game Dev
+
+[paths]
+assets_dirs = projects/ded_moroz_06/assets;
+blend_dirs = projects/ded_moroz_06/blender;
+blender_exec = C:\Program Files\Blender Foundation\Blender\blender.exe
+build_dir = projects/ded_moroz_06/build
+deploy_dir = 
+
+[compile]
+apps = index.html
+css_ignore = 
+engine_type = copy
+ignore = 
+js_ignore = 
+optimization = simple
+use_physics = True
+
+[deploy]
+assets_path_dest = assets
+assets_path_prefix = assets
+ignore = 
+override = 
+
+[url_params]
+
