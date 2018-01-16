@@ -147,7 +147,7 @@ exports.setup_controller_controls = function(elapsed_sensor) {
     	location[0] = m_util.rad_to_deg(_vec3_tmp[2]);
     	location[1] = -m_util.rad_to_deg(_vec3_tmp[0]);
     	//console.log(location);
-		normalize_controller_location(location);
+	//normalize_controller_location(location); UNCOMMENT TO USE VR-CONTROLLER
     	//console.log("LOCATION", location);
     }
 
